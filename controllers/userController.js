@@ -40,10 +40,6 @@ export const register = catchAsyncError(async (req, res, next) => {
 
     });
     
-// //res.status(201).json({success:true,user,message:"User Created Successfully"})
-
-// sendToken(res, user, "Registered Successfully", 201);
-// });
 
 
 export const login = catchAsyncError(async (req, res, next) => {
