@@ -15,8 +15,3 @@ const {connection} = await mongoose.connect(process.env.MONGO_URI,{
     console.log(`Database Connect With ${connection.host}`);
 
 }
-
-// const { connection } = await mongoose.connect(process.env.MONGO_URI);
-// console.log(`MongoDB connected with ${connection.host}`);
-
-//  _mongodb._tcp.cluster0.280fx.mongodb.net
