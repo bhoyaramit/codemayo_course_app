@@ -29,17 +29,4 @@ router.route("/course/:id")
 router.route("/lecture").delete(isAuthenticated, authorizeAdmin, deleteLecture);
 
 
-
-// Add lecture, Delete Course, Get Course Details
-// router
-//   .route("/course/:id")
-//   .get(isAuthenticated, authorizeSubscribers, getCourseLectures)
-//   .post(isAuthenticated, authorizeAdmin, singleUpload, addLecture)
-//   .delete(isAuthenticated, authorizeAdmin, deleteCourse);
-
-// // Delete Lecture
-// router.route("/lecture").delete(isAuthenticated, authorizeAdmin, deleteLecture);
-
-
-
 export default router;
