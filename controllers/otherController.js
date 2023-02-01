@@ -126,14 +126,6 @@ if (subscriptionPercentage < 0 ) subscriptionProfit = false ;
 
 }
 
-
-
-
-
-
-
-
-
 res.status(200).json({
   success: true,
   stats:statsData,
